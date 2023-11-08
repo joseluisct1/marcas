@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mediamaraton>
+    <clubes>
+        <club id="MND" nombre ="Mandarache"/>
+        <club id="IND" nombre ="Independiente"/>
+    </clubes>
+    <corredores>
+        <corredor dorsal="1" nombre="Paco" tiempo="02:35:00" club="IND"/>
+        <corredor dorsal="2" nombre="Juan" tiempo="02:36:00" club="MND"/>
+        <corredor dorsal="3" nombre="Marta" tiempo="02:37:00" club="IND"/>
+        <corredor dorsal="4" nombre="Nónica" tiempo="02:33:00" club="MND"/>
+
+    </corredores>
+</mediamaraton>

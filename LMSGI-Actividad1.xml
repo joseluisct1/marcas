@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<empresa_electronica>
+	<almacenes>
+		<almacen id="ALM01" nombre="Primer Almacen"/>
+		<almacen id="ALM02" nombre="Segundo Almacen"/>
+	</almacenes>
+	<categorias>
+		<categoria nombre="Componentes">
+			<producto id="RS100" nombre="Resistencia 100Ohm" precio="0.01" stock="15000" pedido_minimo="5000" almacen="ALM01"/>
+			<producto id="RJ54" nombre="Conector RJ45" precio="0.45" stock="1200" pedido_minimo="2000" almacen="ALM02"/>
+			<producto id="LEDRGB10MA" nombre="LED RGB 10Ma" precio="0.40" stock="0" pedido_minimo="100" almacen="ALM01"/>
+			<precio_especial desde_cantidad="10" hasta_cantidad="99" precio="0.35"/>
+			<precio_especial desde_cantidad="100" precio="0.30"/>
+		</categoria>
+		<categoria nombre="Herramientas">
+			<producto id="TSTRD" nombre="Tester Red" precio="23.50" stock="7" pedido_minimo="1"/>
+		</categoria>
+		<categoria nombre="Manuales"/>
+		<producto id="SDKLEDRGB" nombre="Tutorial SDK de Led RGB" stock="8" pedido_minimo="1" almacen="ALM1"/>
+	</categorias>
+	<kits>
+		<kit id="LEDMAN100" nombre="Pack 100 leds RGB 10ma + manual SDK">
+			<detalle_kit producto="SDKLEDRGB" cantidad="1"/>
+			<detalle_kit producto="LEDRGB10MA" cantidad="100"/>
+		</kit>
+	</kits>
+</empresa_electronica>
