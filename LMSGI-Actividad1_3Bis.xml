@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Inventario>
+    <departamento nombre="Ventas">
+        <puesto tipo="Usuarioa" id="1"></puesto>
+            <grupo_hardware></grupo_hardware>
+            <grupo_hardware></grupo_hardware>
+            <grupo_hardware></grupo_hardware>
+        <puesto tipo="instalación" id="2"></puesto>
+            <grupo_hardware></grupo_hardware>
+            <grupo_hardware></grupo_hardware>
+            <grupo_hardware></grupo_hardware>
+        <puesto tipo="Usuarioa" id="3"></puesto>
+            <grupo_hardware></grupo_hardware>
+            <grupo_hardware></grupo_hardware>
+            <grupo_hardware></grupo_hardware>
+    </departamento>
+    <departamento nombre="Administración">
+        <puesto tipo="Usuarioa" id="1"></puesto>
+        <puesto tipo="instalación" id="2"></puesto>
+        <puesto tipo="Usuarioa" id="3"></puesto>
+    </departamento>
+    <departamento nombre="Contabilidad">
+        <puesto tipo="Usuarioa" id="1"></puesto>
+        <puesto tipo="instalación" id="2"></puesto>
+        <puesto tipo="Usuarioa" id="3"></puesto>
+    </departamento>
+</Inventario>
