@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<club_3_edad>
+    <juegos>
+        <juego id="1" nombre="domino" num_jugadores_minimo="2" num_jugadores_maximo="4" descripcion="juego de mesa basado en ....."/>
+        <juego id="2" nombre="brisca" num_jugadores_minimo="2" num_jugadores_maximo="4" descripcion="juego de cartas en el que los ......"/>
+        <juego id="3" nombre="julepe" num_jugadores_minimo="2" num_jugadores_maximo="6" descripcion="Julepe yo julepe .........."/>
+    </juegos>
+    <socios>
+        <socio id="jlrr" nombre="jose luis rodriguez rodriguez" fecha_nacimiento="22/05/1971" apod="puma"/>
+        <socio id="asv" nombre="alicia sanchez vidal" fecha_nacimiento="27/07/1973" apod="sdjfljsdlkfj"/>
+        <socio id="ars1" nombre="alejandro rodriguez sanchez" fecha_nacimiento="28/12/1987" apod="peque"/>
+        <socio id="ars2" nombre="alvaro rodriguez sanchez" fecha_nacimiento="28/12/1987" apod="grande"/>
+    </socios>
+</club_3_edad>
