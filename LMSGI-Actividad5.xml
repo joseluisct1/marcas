@@ -1,0 +1,26 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<grupo_teatro>
+    <artistas>
+        <artista id="" nombre="" apellidos="" nom_artistico="" tlf="" fecha_nacimiento="" />
+        <artista id="" nombre="" apellidos="" nom_artistico="" tlf="" fecha_nacimiento="" />
+        <artista id="" nombre="" apellidos="" nom_artistico="" tlf="" fecha_nacimiento="" />
+    </artistas>
+    <obras_teatrales>
+        <obra titulo="" autor="" genero="" año_inicio="">
+            <reparto actor="" rol="" />
+            <reparto actor="" rol="" />
+        </obra>
+
+        <obra titulo="" autor="" genero="" año_inicio="">
+            <reparto actor="" rol="" />
+            <reparto actor="" rol="" />
+        </obra>
+
+        <obra titulo="" autor="" genero="" año_inicio="" />
+    </obras_teatrales>
+    <representaciones>
+        <representacion obra="" fecha="" hora="" lugar="">anotaciones sobre las obras</representacion>
+        <representacion obra="" fecha="" hora="" lugar="">anotaciones sobre las obras</representacion>
+        <representacion obra="" fecha="" hora="" lugar="">anotaciones sobre las obras</representacion>
+    </representaciones>
+</grupo_teatro>
